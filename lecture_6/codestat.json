@@ -1,0 +1,6 @@
+{
+    "root": "..",
+    "top": 8,
+    "ignore": [".zig-cache", "zig-out", ".git"],
+    "report_path": "codestat-report.json"
+}

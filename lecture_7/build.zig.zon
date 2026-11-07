@@ -1,0 +1,12 @@
+.{
+    .name = .lecture_7,
+    .version = "0.7.0",
+    .fingerprint = 0xd53e3b99e71ba392, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.1",
+    // Dependencies are fetched by hash from a URL, or found at a path relative to this file.
+    // mathlib is the package in the mathlib/ directory: its build.zig and build.zig.zon are its own.
+    .dependencies = .{
+        .mathlib = .{ .path = "mathlib" },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "src", "tools" },
+}

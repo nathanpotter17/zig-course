@@ -1,0 +1,7 @@
+.{
+    .name = .lecture_8,
+    .version = "0.1.0",
+    .fingerprint = 0x458126083329a7b9, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.1",
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
+}

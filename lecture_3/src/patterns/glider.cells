@@ -1,0 +1,6 @@
+!Name: Glider
+!Author: Richard K. Guy, 1970
+!The smallest spaceship: it moves one cell down and right every four generations.
+.O.
+..O
+OOO

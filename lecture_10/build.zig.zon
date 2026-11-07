@@ -1,0 +1,13 @@
+.{
+    .name = .lecture_10,
+    .version = "0.10.0",
+    .fingerprint = 0x2b876d7cc5f33b0a, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.1",
+    .dependencies = .{
+        .sdl = .{
+            .url = "git+https://github.com/castholm/SDL.git?ref=v0.6.1+3.4.20#ce475292f172d506468218f939ef607d9be5e083",
+            .hash = "sdl-0.6.1+3.4.20-SDL--rskqQH3W9l4AJX-kdZ93M9XuhsqLrUsd2fnUE_X",
+        },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "src", "shaders" },
+}

@@ -1,0 +1,5 @@
+*.bin
+lecture_7/mathlib/.zig-cache
+lecture_*/.zig-cache
+lecture_*/zig-out
+lecture_*/zig-pkg
